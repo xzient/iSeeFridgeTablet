@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fridge1</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_shopping_list">Shopping List</string>
+    <string name="nav_meals">Meals</string>
+    <string name="nav_users">Users</string>
+    <string name="nav_add_to_inventory">Add to Inventory</string>
+    <string name="nav_user_parameters">User Parameters</string>
+    <string name="nav_settings">Settings</string>
+
+    <!--Notes-->
+    <string name="notes_alert">Alerts</string>
+    <string name="notes_notes">Notes</string>
+
+    <string name="notes_add_notes">Add a Note</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        app:theme= "@style/CustomToolbarStyle"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_weight="1"/>
+
+
+        <ScrollView
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <Button
+                    android:id="@+id/side_bar_home"
+                    android:drawableTop="@drawable/ic_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_home"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_notes"
+                    android:drawableTop="@drawable/ic_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_notes"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_inventory"
+                    android:drawableTop="@drawable/ic_inventory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_inventory"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_shopping_list"
+                    android:drawableTop="@drawable/ic_shopping_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_shopping_list"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_meals"
+                    android:drawableTop="@drawable/ic_meals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_meals"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_users"
+                    android:drawableTop="@drawable/ic_users"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_users"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_add_to_inventory"
+                    android:drawableTop="@drawable/ic_add_to_inventory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_add_to_inventory"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_user_parameters"
+                    android:drawableTop="@drawable/ic_user_parameters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_user_parameters"
+                    android:background="@color/colorBlack"/>
+                <Button
+                    android:id="@+id/side_bar_settings"
+                    android:drawableTop="@drawable/ic_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_settings"
+                    android:background="@color/colorBlack"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
