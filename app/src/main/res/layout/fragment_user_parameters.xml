@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical|center_horizontal"
-        android:textSize="40sp"
-        android:text="User Parameters Fragment"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/user_user_parameters"
+            android:text="Change User"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/name_user_parameters"
+            android:text="Name"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/label_color_user_parameters"
+            android:text="Label Color"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/dietary_restrictions_user_parameters"
+            android:text="Dietary Restrictions"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/user_type_user_parameters"
+            android:text="User Type"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/refrigerator_user_parameters"
+            android:text="Refrigerator"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="5dp"/>
 
 
-</LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
