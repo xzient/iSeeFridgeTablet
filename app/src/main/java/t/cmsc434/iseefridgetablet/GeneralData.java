@@ -32,7 +32,6 @@ public class GeneralData {
     int alertOrNote = 0; //Alert = 0; Note = 1;
 
 
-
     //Users by NAME and COLOR
     public HashMap users = new HashMap<String, String>(){{
         put("Steve", "green");
@@ -40,6 +39,9 @@ public class GeneralData {
         put("Anna", "purple");
     }};
 
+    //Edit Inventory
+    int currentItemNumBeingEdited = 0;
+    InventoryItem currentItemEditing;
 
     //Inventory Data
 
@@ -72,6 +74,8 @@ public class GeneralData {
         add(ketchup);
 
     }};
+
+    InventoryListAdapter inventoryListAdapter;
 
 
     public static GeneralData getSingleInstance() {

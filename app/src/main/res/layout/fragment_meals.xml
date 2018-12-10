@@ -12,5 +12,4 @@
         android:text="Meals Fragment"
         android:layout_gravity="center_horizontal"/>
 
-
 </LinearLayout>

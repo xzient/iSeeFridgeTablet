@@ -1,6 +1,5 @@
 package t.cmsc434.iseefridgetablet;
 
-
 public class InventoryItem {
     private String name;
     private String amount;
