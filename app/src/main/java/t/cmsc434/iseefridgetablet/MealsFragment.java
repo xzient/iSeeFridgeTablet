@@ -22,6 +22,9 @@ public class MealsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_meals, container, false);
         getActivity().setTitle("Meals");
 
+        GridView gridView = (GridView) view.findViewById(R.id.gridview);
+        gridView.setAdapter(new ImageAdapter(getActivity()));
+
         return view;
     }
 }
